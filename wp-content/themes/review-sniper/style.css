@@ -1,0 +1,346 @@
+/*
+Theme Name: Review Sniper
+Theme URI: https://rotina-em-forma.github.io
+Author: General Tiago
+Description: Tema focado em altíssima conversão, CPA e exportação para HTML Estático.
+Version: 1.0
+Text Domain: reviewsniper
+*/
+/* O restante do código CSS: Cores e Estrutura */
+
+:root {
+    --primary-color: #0056b3; /* Azul confiança */
+    --secondary-color: #ff9900; /* Laranja conversão estilo Amazon */
+    --text-color: #333333;
+    --bg-color: #f4f7f6;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* O Nosso Container Blindado de 1400px */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Tipografia de Títulos */
+.section-title {
+    font-size: 2rem;
+    text-align: center;
+    margin: 40px 0 30px;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+}
+
+/* Grid das Cartas (Transforma a lista num visual lado a lado) */
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.card-item {
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card-item:hover {
+    transform: translateY(-5px);
+}
+
+.card-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Botões de Ação */
+.cta-button {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: var(--white) !important;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.3s;
+    box-sizing: border-box;
+}
+
+.cta-button:hover {
+    background-color: #e68a00;
+}
+/* --- ESTRUTURA SINGLE POST: MATEMÁTICA DE 1400PX --- */
+.layout-duplo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.sidebar {
+    width: 300px;
+    flex-shrink: 0; /* Ordem direta: A barra é proibida de encolher! */
+}
+
+.conteudo-central {
+    width: 720px;
+    background: var(--white);
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-sizing: border-box;
+}
+
+.post-title {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.post-meta {
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Tática de Evasão Mobile (Esconde/Redimensiona em telas pequenas) */
+@media (max-width: 1399px) {
+    .layout-duplo {
+        flex-direction: column;
+        align-items: center;
+    }
+    .conteudo-central {
+        width: 100%;
+        max-width: 750px;
+        order: 1; /* Força o conteúdo a aparecer primeiro no celular */
+        margin-bottom: 30px;
+    }
+    .sidebar {
+        width: 100%;
+        max-width: 300px;
+        order: 2; /* Joga os banners para debaixo do texto no celular */
+        margin-bottom: 30px;
+    }
+}
+/* ==========================================
+   ARMAS DE REDAÇÃO (BOTÕES E PRÓS/CONTRAS)
+   ========================================== */
+
+/* Botão Sniper */
+.rs-btn-container {
+    text-align: center;
+    margin: 40px 0;
+}
+.sniper-btn {
+    font-size: 1.3rem;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-weight: 900;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    transition: all 0.2s ease-in-out;
+    letter-spacing: 1px;
+}
+.sniper-btn:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+/* Caixa de Prós e Contras */
+.rs-pros-cons-box {
+    display: flex;
+    gap: 30px;
+    margin: 40px 0;
+    background: var(--white); /* Puxa a cor de fundo claro */
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
+
+.rs-pros, .rs-contras {
+    flex: 1;
+}
+
+.rs-pros h4 { color: #16A34A; margin-top: 0; font-size: 1.2rem; border-bottom: 2px solid #16A34A; padding-bottom: 10px;}
+.rs-contras h4 { color: #E11D48; margin-top: 0; font-size: 1.2rem; border-bottom: 2px solid #E11D48; padding-bottom: 10px;}
+
+.rs-pros-cons-box ul { padding-left: 0; margin: 15px 0 0 0; }
+.rs-pros-cons-box ul li { 
+    list-style-type: none; 
+    margin-bottom: 12px; 
+    position: relative; 
+    padding-left: 25px;
+    font-size: 0.95rem;
+}
+
+.rs-pros ul li::before { content: "✔"; color: #16A34A; position: absolute; left: 0; font-weight: bold;}
+.rs-contras ul li::before { content: "✖"; color: #E11D48; position: absolute; left: 0; font-weight: bold;}
+
+/* Evasão Mobile para Prós e Contras */
+@media (max-width: 768px) {
+    .rs-pros-cons-box {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+}
+/* ==========================================
+   CABEÇALHO E MENU DE NAVEGAÇÃO
+   ========================================== */
+.site-header {
+    background-color: var(--white); /* Puxa do seu painel de controle */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    padding: 15px 0;
+    position: relative;
+    z-index: 10;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Área da Logo */
+.site-branding img {
+    max-width: 250px;
+    height: auto;
+    display: block;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.site-title a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 900;
+}
+
+/* Menu Principal */
+.main-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+}
+
+.main-navigation li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease;
+}
+
+.main-navigation li a:hover {
+    color: var(--primary-color); /* Fica na cor primária ao passar o mouse */
+}
+
+/* Evasão Mobile: Joga o menu para baixo da logo no celular */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .main-navigation ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* ==========================================
+   RODAPÉ (FOOTER) E ESCUDO LEGAL
+   ========================================== */
+.site-footer {
+    background-color: #1F2937; /* Chumbo Escuro (Autoridade) */
+    color: #F9FAFB; /* Texto Claro */
+    padding: 50px 0 30px;
+    margin-top: 60px;
+    border-top: 5px solid var(--primary-color); /* Linha com a cor do seu tema */
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.disclaimer {
+    font-size: 0.8rem;
+    color: #9CA3AF;
+    max-width: 800px;
+    margin: 15px auto !important;
+    line-height: 1.5;
+}
+
+/* Configuração Dinâmica do Menu do Rodapé */
+.footer-links .menu-rodape {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links .menu-rodape li a {
+    color: #F9FAFB;
+    text-decoration: none;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+.footer-links .menu-rodape li a:hover {
+    color: var(--secondary-color);
+}
+
+/* Evasão Mobile */
+@media (max-width: 768px) {
+    .footer-links .menu-rodape {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
