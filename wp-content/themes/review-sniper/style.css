@@ -572,3 +572,57 @@ table tbody tr:last-child td {
         width: 100% !important;
     }
 }
+
+/* ==========================================
+   ENGENHARIA VISUAL: BOTÕES FLUTUANTES (FAB)
+   ========================================== */
+.sniper-floating-share {
+    position: fixed;
+    bottom: 25px; /* Distância do fundo da tela */
+    right: 25px;  /* Colado no lado direito (próximo ao dedão) */
+    display: flex;
+    flex-direction: column; /* Empilha um sobre o outro */
+    gap: 15px; /* Espaço entre os botões */
+    z-index: 9999; /* Imune a sobreposições */
+}
+
+.sniper-fab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Círculo perfeito */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* Sombra elegante */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* O Botão do WhatsApp (Tamanho Primário) */
+.fab-whatsapp {
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+}
+
+/* O Botão do Facebook (Tamanho Secundário, mais discreto) */
+.fab-facebook {
+    width: 50px;
+    height: 50px;
+    background-color: #1877F2;
+    margin: 0 auto; /* Centraliza sobre o ícone do Zap */
+}
+
+/* Efeito Tático ao passar o mouse (Desktop) ou tocar (Mobile) */
+.sniper-fab:hover {
+    transform: translateY(-4px) scale(1.05); /* Levita levemente */
+    box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
+
+/* Ajuste fino para celulares (encolhe um pouco para não cobrir o texto) */
+@media (max-width: 768px) {
+    .sniper-floating-share {
+        bottom: 15px;
+        right: 15px;
+        gap: 12px;
+    }
+    .fab-whatsapp { width: 55px; height: 55px; }
+    .fab-facebook { width: 45px; height: 45px; }
+}
