@@ -382,12 +382,45 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
                 </div>
 
                 
-                <div class="author-box" style="margin-top: 40px; margin-bottom: 20px; padding: 25px; background-color: #f8f9fa; border-left: 4px solid var(--primary-color); border-radius: 0 8px 8px 0; display: flex; align-items: center; gap: 20px;">
+                <style>
+                    /* Blindagem Mobile da Caixa de Autor */
+                    .sniper-author-box {
+                        margin-top: 40px; margin-bottom: 20px; padding: 25px; 
+                        background-color: #f8f9fa; border-left: 4px solid var(--primary-color); 
+                        border-radius: 0 8px 8px 0; display: flex; align-items: center; gap: 20px;
+                    }
+                    .sniper-author-info h4 { margin: 0 0 5px 0; font-size: 1.2rem; color: var(--text-color); }
+                    .sniper-author-info p { margin: 0; font-size: 0.95rem; line-height: 1.6; color: #555; }
+                    
+                    /* O CADEADO DA FOTO (Impede o navegador de esmagar para 0px) */
+                    .author-avatar { 
+                        flex-shrink: 0; /* Ordem direta: Proibido encolher! */
+                    }
+                    .author-avatar img {
+                        width: 80px !important;
+                        height: 80px !important;
+                        border-radius: 50% !important;
+                        object-fit: cover;
+                        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+                    }
+                    
+                    @media (max-width: 768px) {
+                        .sniper-author-box {
+                            flex-direction: column;
+                            text-align: center;
+                            padding: 20px 15px;
+                            border-left: none;
+                            border-top: 4px solid var(--primary-color);
+                            border-radius: 0 0 8px 8px;
+                        }
+                    }
+                </style>
+                <div class="sniper-author-box">
                     <div class="author-avatar">
                         <img alt="Avatar photo" src="https://rotina-em-forma.github.io/wp-content/uploads/2026/03/ana-carla-rotina-em-forma-80x80.png" srcset="https://rotina-em-forma.github.io/wp-content/uploads/2026/03/ana-carla-rotina-em-forma-160x160.png 2x" class="avatar avatar-80 photo" height="80" width="80" loading="lazy" decoding="async">                    </div>
-                    <div class="author-info">
-                        <h4 style="margin: 0 0 5px 0; font-size: 1.2rem; color: var(--text-color);">Sobre o Autor: <span style="color: var(--primary-color);">Ana Carla</span></h4>
-                        <p style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: #555;">
+                    <div class="sniper-author-info">
+                        <h4>Sobre o Autor: <span style="color: var(--primary-color);">Ana Carla</span></h4>
+                        <p>
                             Ana Carla &eacute; m&atilde;e de dois, pesquisadora curiosa e fundadora do projeto. Ap&oacute;s sofrer com di&aacute;stase severa e dores na lombar no p&oacute;s-parto, cansou das promessas vazias da internet. Hoje, ela dedica seu tempo a testar, analisar e compartilhar m&eacute;todos reais e aprovados que ajudam outras m&atilde;es a recuperarem a sa&uacute;de e a autoestima em casa.                        </p>
                     </div>
                 </div>

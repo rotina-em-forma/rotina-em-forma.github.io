@@ -139,6 +139,7 @@ body {
         max-width: 750px;
         order: 1; /* Força o conteúdo a aparecer primeiro no celular */
         margin-bottom: 30px;
+        padding: 25px 20px; /* Correção: Reduz a margem gigante em tablets */
     }
     .sidebar {
         width: 100%;
@@ -147,6 +148,17 @@ body {
         margin-bottom: 30px;
     }
 }
+
+/* CORREÇÃO DO ERRO DO ROBÔ: Resgate Tático Extremo para Celulares */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px; /* Reduz a margem externa de segurança */
+    }
+    .conteudo-central {
+        padding: 20px 15px; /* Cola o texto nas bordas do vidro do celular */
+    }
+}
+
 /* ==========================================
    ARMAS DE REDAÇÃO (BOTÕES E PRÓS/CONTRAS)
    ========================================== */
@@ -531,4 +543,32 @@ table tbody tr:hover {
 /* Remove a borda inferior da última linha para ficar perfeito */
 table tbody tr:last-child td {
     border-bottom: none;
+}
+
+/* ==========================================
+   AJUSTES FINAIS DE RESGATE MOBILE (TÍTULO, VÍDEO E BOTÕES)
+   ========================================== */
+
+/* Torna QUALQUER vídeo incorporado responsivo (Impede de vazar) */
+.post-content iframe,
+.post-content embed,
+.post-content object,
+.post-content video {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16 / 9;
+}
+
+@media (max-width: 768px) {
+    /* Reduz o tamanho do título principal no celular */
+    .post-title {
+        font-size: 1.8rem !important;
+    }
+    
+    /* Impede que os botões de Próximo/Anterior vazem da tela */
+    .sniper-nav-links a {
+        box-sizing: border-box !important;
+        width: 100% !important;
+    }
 }
