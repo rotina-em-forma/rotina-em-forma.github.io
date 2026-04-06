@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet type='text/xsl' href='https://rotina-em-forma.github.io/wp-content/plugins/google-sitemap-generator/sitemap.xsl'?><!-- sitemap-generator-url='http://www.arnebrachhold.de' sitemap-generator-version='4.1.23' -->
-<!-- generated-on='April 5, 2026 4:30 am' -->
+<!-- generated-on='April 6, 2026 3:29 am' -->
 <urlset xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd' xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>	<url>
 		<loc>https://rotina-em-forma.github.io/category/emagrecimento-materno/</loc>
 		<lastmod>2026-04-01T01:22:09+00:00</lastmod>
@@ -12,4 +12,4 @@
 		<changefreq>daily</changefreq>
 		<priority>0.3</priority>
 	</url>
-</urlset><!-- Request ID: 01fc645f8d09da17a2d68a57cef09945; Queries for sitemap: 5; Total queries: 55; Seconds: 0.09; Memory for sitemap: 1KB; Total memory: 78MB -->
+</urlset><!-- Request ID: 7d83b02f58e6ecf02a76ec5e366ec143; Queries for sitemap: 5; Total queries: 34; Seconds: 0.05; Memory for sitemap: 1KB; Total memory: 72MB -->
