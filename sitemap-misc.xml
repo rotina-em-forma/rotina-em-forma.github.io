@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet type='text/xsl' href='https://rotina-em-forma.github.io/wp-content/plugins/google-sitemap-generator/sitemap.xsl'?><!-- sitemap-generator-url='http://www.arnebrachhold.de' sitemap-generator-version='4.1.23' -->
-<!-- generated-on='April 6, 2026 5:52 am' -->
+<!-- generated-on='April 9, 2026 2:56 am' -->
 <urlset xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd' xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>	<url>
 		<loc>https://rotina-em-forma.github.io/</loc>
-		<lastmod>2026-04-03T02:29:18+00:00</lastmod>
+		<lastmod>2026-04-08T21:43:49+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>https://rotina-em-forma.github.io/sitemap.html</loc>
-		<lastmod>2026-04-03T02:29:18+00:00</lastmod>
+		<lastmod>2026-04-08T21:43:49+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
-</urlset><!-- Request ID: 129e919b7249f265ffce6cced801fc55; Queries for sitemap: 3; Total queries: 51; Seconds: 0.04; Memory for sitemap: 1KB; Total memory: 74MB -->
+</urlset><!-- Request ID: 061e816be90c40850d3acac0c6cb1d2e; Queries for sitemap: 3; Total queries: 50; Seconds: 0.02; Memory for sitemap: 1KB; Total memory: 72MB -->
