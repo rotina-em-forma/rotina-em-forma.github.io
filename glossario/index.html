@@ -75,26 +75,29 @@
             
             if (!searchInput || !searchResults) return;
 
+            /* Variaveis base (Sem usar comentarios de barra dupla para blindar contra o Autoptimize) */
             const config = {
                 modo: 'estatico',
-                jsonUrl: 'https://rotina-em-forma.github.io/wp-content/uploads/glossary-search.json',
                 restUrl: 'https://rotina-em-forma.github.io/wp-json/wp/v2/glossario'
             };
 
             let staticAmmo = [];
 
-            // Se for est&aacute;tico, carrega o JSON do servidor uma vez
+            /* Estrategia Parasita: Pega a URL do JSON direto da tag A que o Staatic ja traduziu */
             if (config.modo === 'estatico') {
-                fetch(config.jsonUrl)
-                    .then(response => response.json())
-                    .then(data => { staticAmmo = data; })
-                    .catch(error => console.error('Erro ao buscar muni&ccedil;&atilde;o do gloss&aacute;rio.', error));
+                const trapLink = document.getElementById('glossary-json-trap');
+                if (trapLink) {
+                    fetch(trapLink.href)
+                        .then(response => response.json())
+                        .then(data => { staticAmmo = data; })
+                        .catch(error => console.error('Erro na municao:', error));
+                }
             }
 
             searchInput.addEventListener('keyup', function(e) {
                 const termoBuscado = e.target.value.toLowerCase().trim();
                 
-                // Limpa e esconde se tiver menos de 2 letras
+                /* Esconde se tiver menos de 2 letras */
                 if (termoBuscado.length < 2) {
                     searchResults.style.display = 'none';
                     searchResults.innerHTML = '';
@@ -102,11 +105,9 @@
                 }
 
                 if (config.modo === 'estatico') {
-                    // Modo Est&aacute;tico: Filtro ultra r&aacute;pido na mem&oacute;ria do navegador
                     const resultados = staticAmmo.filter(item => item.title.toLowerCase().includes(termoBuscado)).slice(0, 5);
                     renderizarResultados(resultados);
                 } else {
-                    // Modo Din&acirc;mico: Bate na REST API do WordPress
                     fetch(`${config.restUrl}?search=${termoBuscado}&per_page=5`)
                         .then(response => response.json())
                         .then(data => {
@@ -138,7 +139,7 @@
                 }
             }
 
-            // Esconde a caixa se clicar fora
+            /* Esconde a caixa se clicar fora */
             document.addEventListener('click', function(e) {
                 if (!searchInput.contains(e.target) &amp;&amp; !searchResults.contains(e.target)) {
                     searchResults.style.display = 'none';
