@@ -11,3 +11,4 @@ Sitemap: https://rotina-em-forma.github.io/post-sitemap.xml
 Sitemap: https://rotina-em-forma.github.io/page-sitemap.xml
 Sitemap: https://rotina-em-forma.github.io/category-sitemap.xml
 Sitemap: https://rotina-em-forma.github.io/sitemap.xml
+sitemap: https://rotina-em-forma.github.io/glossario-sitemap.xml
