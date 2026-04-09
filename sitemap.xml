@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet type='text/xsl' href='https://rotina-em-forma.github.io/wp-content/plugins/google-sitemap-generator/sitemap.xsl'?><!-- sitemap-generator-url='http://www.arnebrachhold.de' sitemap-generator-version='4.1.23' -->
-<!-- generated-on='April 9, 2026 4:15 pm' -->
+<!-- generated-on='April 9, 2026 4:52 pm' -->
 <sitemapindex xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd' xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>	<sitemap>
 		<loc>https://rotina-em-forma.github.io/sitemap-misc.xml</loc>
-		<lastmod>2026-04-09T16:07:32+00:00</lastmod>
+		<lastmod>2026-04-09T16:50:42+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://rotina-em-forma.github.io/categoria_glossario-sitemap.xml</loc>
-		<lastmod>2026-04-09T16:07:32+00:00</lastmod>
+		<lastmod>2026-04-09T16:50:42+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://rotina-em-forma.github.io/category-sitemap.xml</loc>
-		<lastmod>2026-04-09T16:07:32+00:00</lastmod>
+		<lastmod>2026-04-09T16:50:42+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://rotina-em-forma.github.io/glossario-sitemap.xml</loc>
-		<lastmod>2026-04-09T16:07:32+00:00</lastmod>
+		<lastmod>2026-04-09T16:50:42+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://rotina-em-forma.github.io/post-sitemap.xml</loc>
@@ -26,6 +26,6 @@
 	</sitemap>
 	<sitemap>
 		<loc>https://rotina-em-forma.github.io/authors-sitemap.xml</loc>
-		<lastmod>2026-04-09T16:07:32+00:00</lastmod>
+		<lastmod>2026-04-09T16:50:42+00:00</lastmod>
 	</sitemap>
-</sitemapindex><!-- Request ID: ff929ea4ef2dcf56fbaad5999466a6fe; Queries for sitemap: 8; Total queries: 55; Seconds: 0.03; Memory for sitemap: 1KB; Total memory: 78MB -->
+</sitemapindex><!-- Request ID: f65bbf842a2feb087a870df6635a1139; Queries for sitemap: 8; Total queries: 55; Seconds: 0.03; Memory for sitemap: 1KB; Total memory: 74MB -->
