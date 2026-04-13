@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet type='text/xsl' href='https://rotina-em-forma.github.io/wp-content/plugins/google-sitemap-generator/sitemap.xsl'?><!-- sitemap-generator-url='http://www.arnebrachhold.de' sitemap-generator-version='4.1.23' -->
-<!-- generated-on='April 10, 2026 10:49 pm' -->
+<!-- generated-on='April 13, 2026 6:28 am' -->
 <urlset xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd' xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>	<url>
 		<loc>https://rotina-em-forma.github.io/glossario/o-que-e-diastase-abdominal/</loc>
-		<lastmod>2026-04-08T03:52:24+00:00</lastmod>
+		<lastmod>2026-04-12T23:49:23+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>https://rotina-em-forma.github.io/glossario/tipo-de-diastase/</loc>
-		<lastmod>2026-04-10T22:28:29+00:00</lastmod>
+		<lastmod>2026-04-13T00:05:29+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.6</priority>
 	</url>
@@ -30,4 +30,34 @@
 		<changefreq>daily</changefreq>
 		<priority>0.6</priority>
 	</url>
-</urlset><!-- Request ID: 49a18e95a6e27c9c3ea90b405cb5839f; Queries for sitemap: 4; Total queries: 51; Seconds: 0.02; Memory for sitemap: 1KB; Total memory: 72MB -->
+	<url>
+		<loc>https://rotina-em-forma.github.io/glossario/barriga-com-diastase/</loc>
+		<lastmod>2026-04-12T00:59:38+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://rotina-em-forma.github.io/glossario/hipermobilidade/</loc>
+		<lastmod>2026-04-12T02:07:48+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://rotina-em-forma.github.io/glossario/tipos-de-barriga-com-diastase/</loc>
+		<lastmod>2026-04-12T04:43:33+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://rotina-em-forma.github.io/glossario/sintomas-de-diastase/</loc>
+		<lastmod>2026-04-13T00:52:07+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>https://rotina-em-forma.github.io/glossario/barriga-de-avental/</loc>
+		<lastmod>2026-04-12T23:14:19+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.6</priority>
+	</url>
+</urlset><!-- Request ID: bf3cf8eae43c83c07daf9971f535a47a; Queries for sitemap: 4; Total queries: 51; Seconds: 0.17; Memory for sitemap: 1KB; Total memory: 80MB -->
