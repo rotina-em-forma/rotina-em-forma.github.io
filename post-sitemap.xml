@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet type='text/xsl' href='https://rotina-em-forma.github.io/wp-content/plugins/google-sitemap-generator/sitemap.xsl'?><!-- sitemap-generator-url='http://www.arnebrachhold.de' sitemap-generator-version='4.1.23' -->
-<!-- generated-on='April 13, 2026 6:27 am' -->
+<!-- generated-on='April 16, 2026 10:16 pm' -->
 <urlset xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd' xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>	<url>
 		<loc>https://rotina-em-forma.github.io/plataforma-mae-saudavel-funciona-mesmo-a-verdade-fraude-golpe/</loc>
-		<lastmod>2026-03-30T20:39:52+00:00</lastmod>
+		<lastmod>2026-04-16T19:12:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.2</priority>
 	</url>
@@ -32,13 +32,13 @@
 	</url>
 	<url>
 		<loc>https://rotina-em-forma.github.io/dor-na-lombar-ao-pegar-o-bebe/</loc>
-		<lastmod>2026-04-03T01:13:16+00:00</lastmod>
+		<lastmod>2026-04-16T06:00:32+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
 		<loc>https://rotina-em-forma.github.io/escape-de-xixi-pos-parto-o-que-fazer/</loc>
-		<lastmod>2026-04-03T01:20:25+00:00</lastmod>
+		<lastmod>2026-04-16T06:06:12+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.2</priority>
 	</url>
@@ -50,13 +50,13 @@
 	</url>
 	<url>
 		<loc>https://rotina-em-forma.github.io/treino-em-casa-para-maes-iniciantes/</loc>
-		<lastmod>2026-04-03T02:22:26+00:00</lastmod>
+		<lastmod>2026-04-16T06:12:34+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.2</priority>
 	</url>
 	<url>
 		<loc>https://rotina-em-forma.github.io/exercicios-de-5-minutos-para-perder-barriga/</loc>
-		<lastmod>2026-04-03T01:59:47+00:00</lastmod>
+		<lastmod>2026-04-16T01:52:19+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.2</priority>
 	</url>
@@ -66,4 +66,4 @@
 		<changefreq>daily</changefreq>
 		<priority>0.2</priority>
 	</url>
-</urlset><!-- Request ID: 7abdbe9a067a1a802a0fe0ae012d6f70; Queries for sitemap: 4; Total queries: 51; Seconds: 0.16; Memory for sitemap: 1KB; Total memory: 72MB -->
+</urlset><!-- Request ID: 47b2819363b09a3a2da743619c0f5d8f; Queries for sitemap: 4; Total queries: 52; Seconds: 0.02; Memory for sitemap: 1KB; Total memory: 68MB -->
