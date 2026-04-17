@@ -1,4 +1,4 @@
-https://rotina-em-forma.test/contato/
-https://rotina-em-forma.test/sobre/
-https://rotina-em-forma.test/termos-e-condicoes-de-uso/
-https://rotina-em-forma.test/politica-de-privacidade/
+https://rotina-em-forma.github.io/contato/
+https://rotina-em-forma.github.io/sobre/
+https://rotina-em-forma.github.io/termos-e-condicoes-de-uso/
+https://rotina-em-forma.github.io/politica-de-privacidade/
