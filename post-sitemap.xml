@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet type='text/xsl' href='https://rotina-em-forma.github.io/wp-content/plugins/google-sitemap-generator/sitemap.xsl'?><!-- sitemap-generator-url='http://www.arnebrachhold.de' sitemap-generator-version='4.1.23' -->
-<!-- generated-on='April 16, 2026 10:16 pm' -->
+<!-- generated-on='April 17, 2026 12:21 am' -->
 <urlset xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd' xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>	<url>
 		<loc>https://rotina-em-forma.github.io/plataforma-mae-saudavel-funciona-mesmo-a-verdade-fraude-golpe/</loc>
 		<lastmod>2026-04-16T19:12:24+00:00</lastmod>
@@ -66,4 +66,4 @@
 		<changefreq>daily</changefreq>
 		<priority>0.2</priority>
 	</url>
-</urlset><!-- Request ID: 47b2819363b09a3a2da743619c0f5d8f; Queries for sitemap: 4; Total queries: 52; Seconds: 0.02; Memory for sitemap: 1KB; Total memory: 68MB -->
+</urlset><!-- Request ID: a85f2e9cefe0862048ebc06fb09b5271; Queries for sitemap: 4; Total queries: 52; Seconds: 0.02; Memory for sitemap: 1KB; Total memory: 68MB -->
