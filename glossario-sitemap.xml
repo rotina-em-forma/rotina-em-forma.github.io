@@ -1,32 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet type='text/xsl' href='https://rotina-em-forma.github.io/wp-content/plugins/google-sitemap-generator/sitemap.xsl'?><!-- sitemap-generator-url='http://www.arnebrachhold.de' sitemap-generator-version='4.1.23' -->
-<!-- generated-on='April 19, 2026 11:46 pm' -->
+<!-- generated-on='April 21, 2026 10:51 pm' -->
 <urlset xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd' xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>	<url>
 		<loc>https://rotina-em-forma.github.io/glossario/o-que-e-diastase-abdominal/</loc>
-		<lastmod>2026-04-12T23:49:23+00:00</lastmod>
+		<lastmod>2026-04-21T17:11:07+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>https://rotina-em-forma.github.io/glossario/tipo-de-diastase/</loc>
-		<lastmod>2026-04-13T00:05:29+00:00</lastmod>
+		<lastmod>2026-04-21T17:18:20+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>https://rotina-em-forma.github.io/glossario/umbigo-triste/</loc>
-		<lastmod>2026-04-13T18:48:48+00:00</lastmod>
+		<lastmod>2026-04-21T17:28:58+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>https://rotina-em-forma.github.io/glossario/diastase-dos-retos-abdominais/</loc>
-		<lastmod>2026-04-13T18:56:01+00:00</lastmod>
+		<lastmod>2026-04-21T17:50:12+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.6</priority>
 	</url>
 	<url>
 		<loc>https://rotina-em-forma.github.io/glossario/diastase-pos-parto/</loc>
-		<lastmod>2026-04-10T22:27:45+00:00</lastmod>
+		<lastmod>2026-04-21T17:57:57+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.6</priority>
 	</url>
@@ -162,4 +162,4 @@
 		<changefreq>daily</changefreq>
 		<priority>0.6</priority>
 	</url>
-</urlset><!-- Request ID: bafab66c21bee55d657c80af34675dd4; Queries for sitemap: 4; Total queries: 52; Seconds: 0.03; Memory for sitemap: 1KB; Total memory: 66MB -->
+</urlset><!-- Request ID: f88ac12da7ea4d4707ae1dcc82f51f8c; Queries for sitemap: 4; Total queries: 52; Seconds: 0.08; Memory for sitemap: 1KB; Total memory: 70MB -->
